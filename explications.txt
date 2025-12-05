@@ -1,0 +1,8 @@
+git log --pretty=oneline --abbrev-commit --decorate -n 10 :
+Affiche l'historique des commits de la branche actuelle de façon compacte (un commit par ligne) avec les décorations (branch/HEAD). Permet de voir l'ordre des commits, leurs messages courts et leurs identifiants abrégés.
+
+git show <commit> --pretty=fuller --name-only :
+Affiche les détails d'un commit précis (auteur, date, message) et la liste des fichiers affectés. Permet d'inspecter exactement ce qui a été modifié par ce commit.
+
+git diff <commit1> <commit2> -- fichier :
+Montre les différences de contenu d'un fichier entre deux commits spécifiés (ajouts/suppressions de lignes). Permet de comparer deux versions et de comprendre quelles lignes ont changé.

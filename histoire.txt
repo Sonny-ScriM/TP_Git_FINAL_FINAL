@@ -1,4 +1,3 @@
-
-Chapitre 1 : Il était une fois…
-Chapitre 2 : Le héros entre en scène
-Chapitre 3 : Le village est attaqu�
+Chapitre 1 : Il etait une fois…
+Chapitre 3 : Le village est attaque
+Chapitre bonus : Le dragon se reveille

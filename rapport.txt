@@ -1,0 +1,8 @@
+1. Qu’ai-je appris pendant ce TP ?
+J'ai appris à lire et manipuler l'historique Git (log, show, diff), à modifier un commit, à revenir à un état précédent et à annuler proprement des commits. J'ai aussi utilisé le stash pour sauvegarder temporairement des modifications non validées.
+
+2. Quelle commande Git as-tu trouvé la plus utile et pourquoi ?
+La commande `git log` combinée à des options (`--oneline --decorate --graph`) est la plus utile pour avoir une vue d'ensemble rapide de l'historique. Elle permet de repérer facilement les commits importants et leurs identifiants pour d'autres opérations (reset, revert, show).
+
+3. Quelle partie t’a posé le plus de difficulté ?
+La gestion des conflits lors d'un `git revert` m'a demandé un peu plus d'attention : il faut résoudre manuellement le conflit, puis terminer l'opération avec `git revert --continue`. Comprendre quand utiliser `reset` (réécrire l'historique local) vs `revert` (ajouter un commit d'annulation) aussi demande de la prudence.
